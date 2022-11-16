@@ -22,11 +22,6 @@ table {
     color: #D2386C;
 }
 
-.table-hover .prime:hover {
-    color: purple;
-    font-size: 1rem;
-}
-
 /* Percent Information */
 #percentinfo {
     color: #009B77;
