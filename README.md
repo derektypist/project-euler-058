@@ -18,7 +18,21 @@ Information at [Project Euler 058](https://projecteuler.net/problem=58)
 
 ## UX
 
+**Getting Started**
+
+Enter a whole number between 10 and 62 (without leading zeros such as 010) in the input field.  Select the Submit Button.  Unless you have made an invalid input, you will see the side length of the square spiral for which the percent of primes along both diagonals falling below the percent entered.  Select the Reset Button to clear the information or to start again.
+
 **User Stories**
+
+As a user, I expect to get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number
+- Entering a number less than 10 or greater than 62
+- Including leading zeros such as 010
+- Entering a number, but it is not an integer
+
+As a user, if I select the Reset Button I can clear the information or start again.
 
 As a user, I expect the function `spiralPrimes(50)` to return a number.
 
