@@ -55,3 +55,9 @@ function spiralPrimes(percent) {
     }
     return curSideLength;
 }
+
+// Function to Clear Information
+function clearInfo() {
+    let txt = "";
+    document.getElementById("percentinfo").innerHTML = txt;
+}
