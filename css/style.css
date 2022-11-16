@@ -22,7 +22,7 @@ table {
     color: #D2386C;
 }
 
-.table-hover .prime {
+.prime:hover {
     color: #34568D;
 }
 
