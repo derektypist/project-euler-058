@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Euler 058 - Spiral Primes</title>
     <!-- Load Styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Set Up Header -->
     <header class="container-fluid text-center">
@@ -18,10 +21,11 @@
 
     <!-- Set Up Instructions (including Spiral) -->
     <section class="container-fluid">
-        <p>Starting with 1 and spiralling anticlockwise in the following way, a square spiral with side length 7 is formed.</p>
+        <p>Starting with 1 and spiralling anticlockwise in the following way, a square spiral with side length 7 is
+            formed.</p>
         <!-- Set Up Table without Borders -->
         <article class="table-responsive">
-            <table class="table table-borderless table-hover d-flex justify-content-center" style="width: 50%; height: 50%;">
+            <table class="table table-borderless table-hover d-flex justify-content-center" style="width: 50%;">
                 <!-- First Row -->
                 <tr>
                     <td class="text-end prime">37</td>
@@ -100,7 +104,11 @@
                 </tr>
             </table>
         </article>
-        <p>It is interesting to note that the odd squares lie along the bottom right diagonal, but what is more interesting is that 8 of the 13 numbers lying along both diagonals are prime; that is, a ratio of 8/13 = 62%.  If one complete new layer is wrapped around the spiral above, a square spiral with side length 9 will be formed.  If this process is continued, what is the side length of the square spiral for which the percent of primes along both diagonals first falls below percent?  Begin by entering a number.</p>
+        <p>It is interesting to note that the odd squares lie along the bottom right diagonal, but what is more
+            interesting is that 8 of the 13 numbers lying along both diagonals are prime; that is, a ratio of 8/13 =
+            62%. If one complete new layer is wrapped around the spiral above, a square spiral with side length 9 will
+            be formed. If this process is continued, what is the side length of the square spiral for which the percent
+            of primes along both diagonals first falls below percent? Begin by entering a number.</p>
     </section>
 
     <!-- Set Up Form -->
@@ -109,7 +117,8 @@
             <!-- Set Up Label and Input -->
             <article class="mb-3">
                 <label for="mypercent" class="form-label">Percent (Required)</label>
-                <input class="form-control" title="Enter whole number between 10 and 62 (without leading zeros)" placeholder="Enter whole number between 10 and 62 (without leading zeros)" id="mypercent">
+                <input class="form-control" title="Enter whole number between 10 and 62 (without leading zeros)"
+                    placeholder="Enter whole number between 10 and 62 (without leading zeros)" id="mypercent">
             </article>
 
             <!-- Set Up and Center Buttons -->
@@ -126,4 +135,5 @@
         <script src="js/script.js"></script>
     </section>
 </body>
+
 </html>
