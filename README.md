@@ -48,3 +48,11 @@ User Stories on function `spiralPrimes(percent)` taken from [FreeCodeCamp - Codi
 
 The function `spiralPrimes(percent)` returns a number, where `percent` is a number between 10 and 62.
 
+## Features
+
+Allows the user to enter the percent as a number in order to get the side length of the square spiral for which the percent of primes along both diagonals falls below a certain percentage.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.2 and Google Fonts.
+
